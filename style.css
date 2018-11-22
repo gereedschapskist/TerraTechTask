@@ -1,0 +1,44 @@
+#results {
+    width: 25%;
+    float: left;
+    height: 400px;
+}
+
+#results .container {
+    overflow: auto;
+    max-height: 100%;
+}
+
+#results .container .item {
+    position: relative;
+    padding: 10px 10px 10px 80px;
+    border-bottom: 1px #c3c3c3 solid;
+}
+
+#results .container .item .thumbnail {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -35px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#results .container .item .thumbnail img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#mapid {
+	width: 50%;
+	float: left;
+	height: 400px;
+}
+
+#chartcontainer {
+    width: 25%;
+    height: 400px;
+    float: left;
+}
